@@ -115,8 +115,10 @@ h2{
         padding: 6px;
     }
     .header .logo{
+        margin: auto;
         text-align: center;
     }
+
     .certification{
         display: block;
     }
