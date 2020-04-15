@@ -9,6 +9,17 @@ h2{
     font-weight: bold;
     font-size: 24px;
 }
+
+.container{
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
 .certification{
     border: 1px solid grey;
     border-radius: 5px;
@@ -33,7 +44,6 @@ h2{
 .certification_imageContainer{
     margin: 0 auto;
 }
-
 
 /* .details{
     display: flex;
