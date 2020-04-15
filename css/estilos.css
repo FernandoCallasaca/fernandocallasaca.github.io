@@ -31,12 +31,18 @@ body{
     height: inherit;
     color: white;
     text-decoration: none;
-    display: flex;
-    align-items: center;
+    margin: 0px;
 }
-.logo {
-    margin: 0;
-    padding: 0px 10px;
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+h2{
+    color: #604CB0;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: bold;
+    font-size: 24px;
 }
 .container{
     max-width: 1000px;
@@ -47,6 +53,54 @@ body{
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
+}
+.portafolio{
+    background-color: #fafafa;
+    padding: 20px;
+}
+.certification{
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;padding: 20px;
+    margin-bottom: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.certification_details-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.certification_details-platform, .certification_details-date, .certification_details-url{
+    margin: 10px 0px;
+}
+.certification_details{
+    width: 50%;
+}
+.certification_imageContainer{
+    margin: 0 auto;
+    text-align: center;
+}
+.certification_details-description{
+    font-size: 20px;
+}
+
+.certification_imageContainer{
+    width: 50%  ;
+}
+.certification_imageContainer img{
+    max-width: 100%;
+}
+
+/* .details{
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin: 0;
+    padding: 0px 10px;
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
@@ -75,10 +129,43 @@ body{
     .header .logo{
         text-align: center;
     }
+    .certification{
+        display: block;
+    }
+    .certification_imageContainer{
+        width: auto;
+        text-align: center;
+    }
+    .certification_details{
+        width: auto;
+    }
+    .certification_imageContainer{
+        width: auto;
+    }
+    .certification_details-platform, .certification_details-date, .certification_details-url{
+        margin: .3em 0px;
+    }
+    .certification_details-title{
+        font-size: 1.5em;
+        margin-bottom: 0.3em;
+    }
+    .certification_details-url{
+        font-size: 1em;
+    }
+    .certification_details-platform{
+        font-size: .7em;
+    }
+    .certification_details-description{
+        font-size: .8em; 
+    }
 }
 @media screen and (max-width: 480px){
-
+    .certification_details{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 320px){
-
+    .certification_details{
+        font-size: 11px;
+    }
 }
