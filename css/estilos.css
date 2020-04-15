@@ -93,19 +93,7 @@ h2{
 .certification_imageContainer img{
     max-width: 100%;
 }
-
-/* .details{
-    display: flex;
-    align-items: center;
-}
-.logo {
-    margin: 0;
-    padding: 0px 10px;
-}
-
 /* -------------------------------------------------------------------------------------------------------------- */
-
-/* Media Queries */
 @media screen and (max-width: 1024px){
 
 }
