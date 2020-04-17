@@ -1,4 +1,5 @@
 body{
+    font-family: 'Source Sans Pro',sans-serif;
     margin: 0;
 }
 .header{
@@ -39,11 +40,11 @@ h1,h2,h3,h4,h5,h6{
     font-weight: normal;
 }
 h2{
-    color: #604CB0;
+    color: #026fff;
     text-transform: uppercase;
     font-family: 'Source Sans Pro',sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 25px;
 }
 .container{
     max-width: 1000px;
@@ -62,7 +63,8 @@ h2{
 .certification{
     border: 1px solid grey;
     border-radius: 10px;
-    display: flex;padding: 20px;
+    display: flex;
+    padding: 25px;
     margin-bottom: 15px;
     background-color: white;
     display: flex;
@@ -70,7 +72,7 @@ h2{
     justify-content: space-between;
 }
 .certification_details-title{
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 10px;
     margin-top: 0;
 }
@@ -81,15 +83,11 @@ h2{
     width: 50%;
 }
 .certification_imageContainer{
-    margin: 0 auto;
-    text-align: center;
+    width: auto;
+    margin-right: 0px;
 }
 .certification_details-description{
     font-size: 20px;
-}
-
-.certification_imageContainer{
-    width: 50%  ;
 }
 .certification_imageContainer img{
     max-width: 100%;
