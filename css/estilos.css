@@ -93,6 +93,7 @@ h2{
 }
 .event_list_title{
     margin-left: 1em;
+    margin-top: 0;
 }
 .event_list{
     display: flex;
@@ -124,6 +125,9 @@ figure{
     position: relative;
     text-align: center;
     padding: 20px;
+}
+.event_title{
+    letter-spacing: 1.5px;
 }
 .event_description{
     text-align: left;
