@@ -124,6 +124,7 @@ h2{
     .certification_imageContainer{
         width: auto;
         text-align: center;
+        margin-left: 0px;
     }
     .certification_details{
         width: auto;
@@ -150,11 +151,11 @@ h2{
 }
 @media screen and (max-width: 480px){
     .certification_details{
-        font-size: 12px;
+        font-size: 13px;
     }
 }
 @media screen and (max-width: 320px){
     .certification_details{
-        font-size: 11px;
+        font-size: 12px;
     }
 }
