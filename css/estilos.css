@@ -242,7 +242,7 @@ figure{
     }
     .logo{
         text-align: center;
-        height: 48px;
+        height: 57px;
         padding: .5em;
     }
     .header ul{ 
@@ -261,7 +261,7 @@ figure{
     }
     .menu{
         position: fixed;
-        background-color:rgba(5,111,255,.9);
+        background-color:rgba(104, 153, 223, 0.9);
         z-index: 4;
         top: 0;
         left: -100vw;
