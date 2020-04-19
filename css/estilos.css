@@ -265,6 +265,9 @@ figure{
     .certification_details{
         font-size: 17px;
     }
+    h1{
+        font-size: 1.5em;
+    }
 }
 @media screen and (max-width: 320px){
     .certification_details{
