@@ -55,6 +55,24 @@ h2{
     height: inherit;
     flex-wrap: inherit;
 }
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b2127;
+    color: white;
+}
+.hero img{
+    object-fit: cover;
+}
+h1{
+    font-size: 40px;
+    letter-spacing: -0.2px;
+    line-height: 150%;
+}
+h1 strong{
+    color: #026fff;
+}
 .portafolio{
     background-color: #fafafa;
     padding: 20px;
@@ -146,8 +164,26 @@ figure{
 
 
 /* -------------------------------------------------------------------------------------------------------------- */
-@media screen and (max-width: 1024px){
-    
+@media screen and (max-width: 1023px){
+    .hero{
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
+    .hero img{
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    h1{
+        font-size: 2em;
+        z-index: 2;
+    }
 }
 @media screen and (max-width: 767px){
     h2{
@@ -170,7 +206,6 @@ figure{
         justify-content: center;
         padding: 6px;
         text-decoration: underline;
-        margin-bottom: .2em;
     }
     .header .logo{
         margin: auto;
