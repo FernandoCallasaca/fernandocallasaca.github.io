@@ -1,3 +1,35 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?wthmye');
+    src:  url('../fonts/icomoon.eot?wthmye#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?wthmye') format('truetype'),
+      url('../fonts/icomoon.woff?wthmye') format('woff'),
+      url('../fonts/icomoon.svg?wthmye#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-menu:before {
+    content: "\e904";
+  }
+  
+
 body{
     font-family: 'Source Sans Pro',sans-serif;
     margin: 0;
@@ -159,7 +191,21 @@ figure{
     text-decoration: none;
 }
 
-
+.burger_button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    display: none;
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 5;
+}
 
 
 
@@ -196,6 +242,8 @@ figure{
     }
     .logo{
         text-align: center;
+        height: 48px;
+        padding: .5em;
     }
     .header ul{ 
         display: block;
@@ -211,7 +259,23 @@ figure{
         margin: auto;
         text-align: center;
     }
-
+    .menu{
+        position: fixed;
+        background-color:rgba(5,111,255,.9);
+        z-index: 4;
+        top: 0;
+        left: -100vw;
+        width: 100vw;
+        /* height: 100vh; */
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+    }
+    .menu.is-active{
+        left: 0;
+    }
     .certification{
         display: block;
         padding-bottom: 15px;
@@ -259,6 +323,9 @@ figure{
         /* 1em = 16px */
         margin: -2em .5em .5em;
         padding: 1em;
+    }
+    .burger_button{
+        display: block;
     }
 }
 @media screen and (max-width: 480px){

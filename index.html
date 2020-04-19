@@ -9,10 +9,11 @@
     <title>Fernando Callasaca</title>
 </head>
 <body>
+    <i class="icon-menu burger_button" id="burger-menu"></i>
     <header class="header">
         <div class="container">
             <figure class="logo">
-                <img src="images/platzi.png" height="50px" alt="Logo de Fernando">
+                <img src="https://i.imgur.com/fSnEgMw.png" height="50px" width="250"  alt="Logo de Fernando">
             </figure>
             <div class="menu">
                 <ul>
@@ -188,13 +189,43 @@
             </article>
         </div>
     </section>
+
+
+    <script>
+        const ipad =  window.matchMedia('screen and (max-width: 767px)');
+        
+        const menu = document.querySelector('.menu');
+        const burgerButton = document.querySelector('#burger-menu');
+        
+        ipad.addListener(validation);
+        
+        
+        function validation(event){
+          if(event.matches){
+            burgerButton.addEventListener('click',hideShow);
+          }else{
+            burgerButton.removeEventListener('click',hideShow);
+          }
+        }
+        validation(ipad);
+  
+        function hideShow(){
+          if(menu.classList.contains('is-active')){
+            menu.classList.remove('is-active');
+          }
+          else{
+            menu.classList.add('is-active');
+          }
+        }
+  
+      </script>
     <!-- <div>
         <div class="details">
             <h1>Esta será la página de Fernando Callasaca</h1>
             <p>Gracias por visitarme... Pronto subiremos grandes avances</p>
         </div>
         <p class="imagen"><img src="https://i.pinimg.com/originals/09/3f/18/093f1861fc92b3a0ba497ece177b27e6.gif" alt="gif hombre trabajando"></p>
-    </div>
+    </div>-->
 </body>
 </html>
 
