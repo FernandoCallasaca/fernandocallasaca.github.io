@@ -335,6 +335,9 @@ figure{
     h1{
         font-size: 1.5em;
     }
+    .logo img{
+        width: 225px;
+    }
 }
 @media screen and (max-width: 320px){
     .certification_details{
