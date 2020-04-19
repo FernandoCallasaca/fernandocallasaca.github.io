@@ -250,6 +250,9 @@ figure{
         padding: 0px;
         margin: 0 auto;
     }
+    .header li{
+        margin-bottom: 35px;
+    }
     .header a{
         justify-content: center;
         padding: 6px;
