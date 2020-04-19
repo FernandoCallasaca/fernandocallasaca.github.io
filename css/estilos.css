@@ -98,6 +98,7 @@ h2{
     object-fit: cover;
 }
 h1{
+    font-family: 'Baloo Bhaina 2', cursive;
     font-size: 40px;
     letter-spacing: -0.2px;
     line-height: 150%;
