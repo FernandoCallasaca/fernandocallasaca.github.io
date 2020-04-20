@@ -206,6 +206,7 @@ figure{
 }
 .footer a{
     color: white;
+
 }
 
 .burger_button{
@@ -388,6 +389,7 @@ figure{
         display: block;
         text-align: center;
         border: 1px solid transparent;
+        padding-top: .5em;
     }
 }
 @media screen and (max-width: 480px){
