@@ -193,6 +193,21 @@ figure{
     text-decoration: none;
 }
 
+.footer{
+    background-color: #1d252c;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer img{
+    vertical-align: middle;
+}
+.footer a{
+    color: white;
+}
+
 .burger_button{
     width: 40px;
     height: 40px;
@@ -331,6 +346,11 @@ figure{
     }
     .burger_button{
         display: block;
+    }
+    .footer{
+        display: block;
+        text-align: center;
+        border: 1px solid transparent;
     }
 }
 @media screen and (max-width: 480px){
