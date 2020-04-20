@@ -387,6 +387,9 @@ figure{
         padding: 1.5em 0em;
         text-align: center;
     }
+    .contact h3{
+        margin-top: 0;
+    } 
     .footer{
         display: block;
         text-align: center;
