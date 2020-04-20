@@ -208,7 +208,9 @@ figure{
     color: white;
 
 }
-
+.contact h3{
+    font-size: 1.5em;
+} 
 .burger_button{
     width: 40px;
     height: 40px;
