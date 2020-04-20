@@ -223,7 +223,42 @@ figure{
     left:0;
     z-index: 5;
 }
-
+.contact{
+    background: #f4fbff;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1em 0em;
+    text-align: center;
+}
+/* .contact p{
+    font-size: 1.2em;
+    font-weight: bold;
+} */
+.social_link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0px 10px
+}
+.social_link.twitter{
+    background-image: url('../SVG/twitter.svg');
+}
+.social_link.facebook{
+    background-image: url('../SVG/facebook.svg');
+}
+.social_link.github{
+    background-image: url('../SVG/github.svg');
+}
+.social_link.instagram{
+    background-image: url('../SVG/instagram.svg');
+}
+.social_link.linkedin{
+    background-image: url('../SVG/linkedin.svg');
+}
 
 
 /* -------------------------------------------------------------------------------------------------------------- */
@@ -346,6 +381,12 @@ figure{
     }
     .burger_button{
         display: block;
+    }
+    .contact{
+        display: block  ;
+        height: auto;
+        padding: 1.5em 0em;
+        text-align: center;
     }
     .footer{
         display: block;
